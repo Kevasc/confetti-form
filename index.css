@@ -1,15 +1,19 @@
 .title-container {
   border: 2px solid red;
+  display: flex;
 }
 
 .form-container {
   border: 2px solid rgb(0, 4, 255);
+  display: flex;
 }
 
 .label {
   border: 2px solid rgb(0, 255, 72);
+  display: flex;
 }
 
 .input-box {
   border: 2px solid rgb(255, 0, 187);
+  display: flex;
 }
