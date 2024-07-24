@@ -1,6 +1,6 @@
 .title-container {
   display: flex;
-  padding: 2rem;
+  padding-top: 2rem;
   justify-content: center;
 }
 
@@ -12,6 +12,7 @@
   display: flex;
   justify-content: left;
   height: 3rem;
+  margin: 1rem 2rem;
 }
 
 .form-container {
