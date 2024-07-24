@@ -32,6 +32,7 @@
 .input-box {
   border: 2px solid rgb(255, 0, 187);
   display: flex;
+  justify-content: center;
 }
 
 .submit-button {
