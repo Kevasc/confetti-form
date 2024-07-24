@@ -1,8 +1,18 @@
 .title-container {
   border: 2px solid red;
   display: flex;
-  justify-content: center;
   padding: 2rem;
+  justify-content: center;
+}
+
+/* .header {
+
+} */
+
+.logo {
+  display: flex;
+  justify-content: left;
+  height: 3rem;
 }
 
 .form-container {
@@ -16,6 +26,7 @@
   border: 2px solid rgb(0, 255, 72);
   display: flex;
   padding: 0.5rem;
+  justify-content: center;
 }
 
 .input-box {
