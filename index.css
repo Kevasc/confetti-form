@@ -24,7 +24,7 @@
 .label {
   display: flex;
   padding: 0.5rem;
-  justify-content: center;
+  justify-content: left;
 }
 
 .input-box {
