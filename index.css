@@ -1,11 +1,13 @@
 .title-container {
   border: 2px solid red;
   display: flex;
+  justify-content: center;
 }
 
 .form-container {
   border: 2px solid rgb(0, 4, 255);
   display: flex;
+  justify-content: center;
 }
 
 .label {
