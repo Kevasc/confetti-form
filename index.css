@@ -1,5 +1,4 @@
 .title-container {
-  border: 2px solid red;
   display: flex;
   padding: 2rem;
   justify-content: center;
@@ -16,27 +15,23 @@
 }
 
 .form-container {
-  border: 2px solid rgb(0, 4, 255);
   display: flex;
   justify-content: center;
   padding: 1rem;
 }
 
 .label {
-  border: 2px solid rgb(0, 255, 72);
   display: flex;
   padding: 0.5rem;
   justify-content: center;
 }
 
 .input-box {
-  border: 2px solid rgb(255, 0, 187);
   display: flex;
   justify-content: center;
 }
 
 .submit-button {
-  border: 2px solid rgb(199, 209, 52);
   display: flex;
   justify-content: center;
 }
