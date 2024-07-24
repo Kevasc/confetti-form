@@ -2,17 +2,20 @@
   border: 2px solid red;
   display: flex;
   justify-content: center;
+  padding: 2rem;
 }
 
 .form-container {
   border: 2px solid rgb(0, 4, 255);
   display: flex;
   justify-content: center;
+  padding: 1rem;
 }
 
 .label {
   border: 2px solid rgb(0, 255, 72);
   display: flex;
+  padding: 0.5rem;
 }
 
 .input-box {
