@@ -12,8 +12,6 @@ html {
 }
 
 .logo {
-  display: flex;
-  justify-content: left;
   height: 3rem;
   margin: 1rem 2rem;
 }
@@ -31,14 +29,4 @@ html {
   display: flex;
   padding: 0.5rem;
   justify-content: left;
-}
-
-.input-box {
-  display: flex;
-  justify-content: center;
-}
-
-.submit-button {
-  display: flex;
-  justify-content: center;
 }
