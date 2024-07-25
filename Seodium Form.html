@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<!-- saved from url=(0058)http://127.0.0.1:5500/index.html?fname=&lname=&email=&dob= -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Seodium Form</title>
+    <link rel="icon" type="image/x-icon" href="./Seodium Form_files/icon.jpeg">
+    <link rel="stylesheet" href="./Seodium Form_files/index.css">
+    <link href="./Seodium Form_files/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="container mt-5"> <!--bootstrap class: margin-top: 3rem -->
+
+        <div class="text-center mb-4"> <!--bootstrap class: margin-bottom: 1.5rem-->
+            <div class="logo"><img src="./Seodium Form_files/icon.jpeg" alt="Seodium Logo"></div>
+            <h1>Enter your details here:</h1>
+        </div>
+    </div>
+    <div class="form-container">
+        <form>
+            <div class="label">
+                <label for="fname">First name:</label><br>
+            </div>
+            <div class="input-box">
+                <input type="text" id="fname" name="fname"><br>
+            </div>
+            <div class="label">
+                <label for="lname">Last name:</label><br>
+            </div>
+            <div class="input-box">
+                <input type="text" id="lname" name="lname"><br>
+            </div>
+            <div class="label">
+                <label for="email">Email:</label><br>
+            </div>
+            <div class="input-box">
+                <input type="email" id="email" name="email"><br>
+            </div>
+            <div class="label">
+                <label for="age">Date of birth:</label><br>
+            </div>
+            <div class="input-box">
+                <input type="date" style="width:100%" is="dob" name="dob" placeholder="dd-mm-yyyy" value="" min="1907-01-01" max="2030-12-31"><br>
+            </div>
+    </form></div>
+    <div class="submit-button"><button type="submit" class="btn btn-primary">Submit</button></div>
+
+    
+    
+    <script src="./Seodium Form_files/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+
+</body></html>
