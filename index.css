@@ -4,10 +4,11 @@ html {
   margin: 0;
 }
 
-.title-container {
+.container {
   display: flex;
-  padding-top: 2rem;
   justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
 
 .logo {
