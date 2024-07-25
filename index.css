@@ -1,12 +1,8 @@
-/* .title-container {
+.title-container {
   display: flex;
   padding-top: 2rem;
   justify-content: center;
 }
-
-.header {
-
-} 
 
 .logo {
   display: flex;
@@ -35,4 +31,4 @@
 .submit-button {
   display: flex;
   justify-content: center;
-} */
+}
