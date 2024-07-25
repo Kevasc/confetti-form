@@ -16,7 +16,6 @@ const launchConfetti = () => {
     }
 
     const particleCount = 50 * (timeLeft / duration);
-    // since particles fall down, start a bit higher than random
     confetti(
       Object.assign({}, defaults, {
         particleCount,
@@ -56,7 +55,9 @@ const handleSubmit = (event) => {
       // Show confetti
       launchConfetti();
     } else {
-      alert("Confetti only for birth years ending in 5 or 0!");
+      alert(
+        "Sorry :( confetti only for users with birthyear ending in 5 or 0!"
+      );
     }
   }
 
