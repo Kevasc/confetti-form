@@ -24,12 +24,8 @@ html {
   padding: 2rem;
   border-radius: 30px;
   min-width: 40%;
-  box-shadow: rgb(84, 54, 204) 0px 4px 8px -2px, rgb(195, 5, 84) 0px 0px 0px 1px;
+  box-shadow: rgb(195, 5, 84) 0px 4px 8px -2px, rgb(84, 54, 204) 0px 0px 0px 1px;
   background-color: white;
-}
-
-.form-label {
-  text-align: left;
 }
 
 .form-container {
