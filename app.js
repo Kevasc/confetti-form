@@ -4,13 +4,13 @@ const launchConfetti = () => {
   const animationEnd = Date.now() + duration; //This breaks the confetti loop
   const defaults = { startVelocity: 30, spread: 360, ticks: 60, zIndex: 0 };
 
-  function randomInRange(min, max) {
+  const randomInRange = (min, max) => {
+    //adds randomness to the confetti particles position
     return Math.random() * (max - min) + min;
-  }
+  };
 
-  const interval = setInterval(function () {
+  const interval = setInterval(() => {
     const timeLeft = animationEnd - Date.now();
-
     if (timeLeft <= 0) {
       return clearInterval(interval);
     }
@@ -27,6 +27,7 @@ const launchConfetti = () => {
     );
     confetti(
       Object.assign({}, defaults, {
+        // this function randomly assigns where the confetti will appear on screen
         particleCount,
         origin: {
           x: randomInRange(0.7, 0.9),
